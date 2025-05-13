@@ -1,0 +1,25 @@
+{
+  "name": "Change Event Damage",
+  "translation_key": "Change Input Damage To: ",
+  "type": 0,
+  "color": [
+    0.5294113159179688,
+    0.0,
+    1.0,
+    1.0
+  ],
+  "category": "Advanced",
+  "category_index": 19,
+  "world_dependency": false,
+  "versions": [
+    "1.21.1_NeoForge"
+  ],
+  "components": {
+    "number": {
+      "type": 0,
+      "variable_type": "Number",
+      "variable_index": 5,
+      "default_value": 0.0
+    }
+  }
+}

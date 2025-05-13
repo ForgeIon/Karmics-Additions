@@ -1,0 +1,25 @@
+{
+  "name": "Get Slot Count From Block",
+  "translation_key": "Get Amount of slots from block %1 if it has an inventory",
+  "type": 1,
+  "color": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "category": "Karmics Additions!",
+  "category_index": 23,
+  "world_dependency": true,
+  "type_index": 5,
+  "versions": [
+    "1.21.1_NeoForge"
+  ],
+  "components": {
+    "Block": {
+      "type": 0,
+      "variable_type": "Block",
+      "variable_index": 0
+    }
+  }
+}

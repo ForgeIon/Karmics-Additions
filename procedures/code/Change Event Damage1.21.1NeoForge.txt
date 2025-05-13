@@ -1,0 +1,2 @@
+LivingIncomingDamageEvent event2 = (LivingIncomingDamageEvent) event;
+event2.setAmount((float) ${input$number});

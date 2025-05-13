@@ -1,0 +1,25 @@
+{
+  "name": "Increment Number",
+  "translation_key": "Increment %1 by 1",
+  "type": 0,
+  "color": [
+    0.6941176652908325,
+    0.48627451062202454,
+    0.800000011920929,
+    1.0
+  ],
+  "category": "Block data",
+  "category_index": 0,
+  "world_dependency": false,
+  "versions": [
+    "1.21.1_NeoForge"
+  ],
+  "components": {
+    "Var": {
+      "type": 0,
+      "variable_type": "Number",
+      "variable_index": 5,
+      "default_value": 0.0
+    }
+  }
+}

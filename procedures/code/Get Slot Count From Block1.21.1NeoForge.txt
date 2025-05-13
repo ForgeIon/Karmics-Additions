@@ -1,0 +1,6 @@
+BlockEntity blockEntity = ${input$Block};
+if (blockEntity != null) {
+    blockEntity.getCapability(Capabilities.ItemHandler.BLOCK, null).ifPresent(handler -> {
+        int slotCount = handler.getSlots();
+    });
+}

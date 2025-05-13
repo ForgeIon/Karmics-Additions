@@ -1,0 +1,6 @@
+KarmicsAdditions
+karmicsadditions
+1.0.1
+AshleyKarmic
+Various things that are useful.
+Made with MCreator plugin builder by NerdyPuzzle

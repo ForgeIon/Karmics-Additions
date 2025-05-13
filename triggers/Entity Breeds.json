@@ -1,0 +1,29 @@
+{
+  "name": "Entity Breeds",
+  "cancelable": true,
+  "side": 0,
+  "provided_dependencies": [
+    "X",
+    "Y",
+    "Z",
+    "ENTITY",
+    "SOURCEENTITY",
+    "WORLD",
+    "CHILD"
+  ],
+  "custom_dependency_types": [
+    "Entity"
+  ],
+  "versions": {
+    "1.21.1_NeoForge": {
+      "event": "BabyEntitySpawnEvent",
+      "X": "child.getBlockX()",
+      "Y": "child.getBlockY()",
+      "Z": "child.getBlockZ()",
+      "ENTITY": "getParentB()",
+      "SOURCEENTITY": "getParentA()",
+      "WORLD": "getChild().level()",
+      "CHILD": "getChild()"
+    }
+  }
+}

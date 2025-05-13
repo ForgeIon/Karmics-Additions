@@ -1,0 +1,14 @@
+{
+  "name": "Day Passed By Sleeping",
+  "cancelable": false,
+  "side": 0,
+  "provided_dependencies": [
+    "WORLD"
+  ],
+  "versions": {
+    "1.21.1_NeoForge": {
+      "event": "SleepFinishedTimeEvent",
+      "WORLD": "getLevel()"
+    }
+  }
+}
