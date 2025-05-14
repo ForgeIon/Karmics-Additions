@@ -1,7 +1,7 @@
 {
-  "name": "Turn NBT String To Itemstack",
-  "translation_key": "Turn NBT String %1 into Itemstack and put onto itemstack variable %2",
-  "type": 0,
+  "name": "Get Item ID From String",
+  "translation_key": "Get Item ID From String %1",
+  "type": 1,
   "color": [
     0.6941176652908325,
     0.48627451062202454,
@@ -10,7 +10,8 @@
   ],
   "category": "Karmics Additions!",
   "category_index": 23,
-  "world_dependency": true,
+  "world_dependency": false,
+  "type_index": 6,
   "versions": [
     "1.21.1_NeoForge"
   ],
@@ -20,11 +21,6 @@
       "variable_type": "Text",
       "variable_index": 6,
       "default_value": "text"
-    },
-    "VariableToSet": {
-      "type": 0,
-      "variable_type": "Item",
-      "variable_index": 3
     }
   }
 }

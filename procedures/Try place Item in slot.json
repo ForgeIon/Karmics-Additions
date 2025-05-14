@@ -1,6 +1,6 @@
 {
   "name": "Try place Item in slot",
-  "translation_key": "Try to place %1 into slot %2 of block at x %3 y %4 z %5 and set %6 to result ",
+  "translation_key": "Try to place %1 into slot %2 of block at x %3 y %4 z %5 and set logic variable %6 to result ",
   "type": 0,
   "color": [
     0.6941176652908325,
