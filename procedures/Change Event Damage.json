@@ -1,6 +1,6 @@
 {
   "name": "Change Event Damage",
-  "translation_key": "Change Input Damage To: ",
+  "translation_key": "Change Input Damage To %1 (Entity Attacked)",
   "type": 0,
   "color": [
     0.5294113159179688,
@@ -8,8 +8,8 @@
     1.0,
     1.0
   ],
-  "category": "Advanced",
-  "category_index": 19,
+  "category": "Karmics Additions!",
+  "category_index": 23,
   "world_dependency": false,
   "versions": [
     "1.21.1_NeoForge"

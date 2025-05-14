@@ -1,0 +1,5 @@
+try {
+    ${input$VariableToSet} = ItemStack.parseOptional(world.registryAccess(), net.minecraft.nbt.TagParser.parseTag(${input$String}));
+} catch (Exception e) {
+    ${input$VariableToSet} = ItemStack.EMPTY;
+}

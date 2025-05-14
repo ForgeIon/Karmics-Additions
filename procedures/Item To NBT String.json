@@ -1,7 +1,7 @@
 {
-  "name": "Increment Number",
-  "translation_key": "Increment %1 by 1",
-  "type": 0,
+  "name": "Item To NBT String",
+  "translation_key": "Turn Itemstack %1 into NBT String",
+  "type": 1,
   "color": [
     0.6941176652908325,
     0.48627451062202454,
@@ -10,16 +10,16 @@
   ],
   "category": "Karmics Additions!",
   "category_index": 23,
-  "world_dependency": false,
+  "world_dependency": true,
+  "type_index": 6,
   "versions": [
     "1.21.1_NeoForge"
   ],
   "components": {
-    "Var": {
+    "Itemstack": {
       "type": 0,
-      "variable_type": "Number",
-      "variable_index": 5,
-      "default_value": 0.0
+      "variable_type": "Item",
+      "variable_index": 3
     }
   }
 }

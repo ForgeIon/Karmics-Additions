@@ -1,0 +1,10 @@
+if (true) {
+    IItemHandler handler = null;
+    if (world instanceof ILevelExtension _ext) {
+        handler = _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(${input$x}, ${input$y}, ${input$z}), null);
+    }
+    if (handler != null) {
+        ItemStack stack = new ItemStack(${input$itemstack});
+        ${input$Bool} = handler.isItemValid(${input$slot}, stack);
+    }
+}

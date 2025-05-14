@@ -2,3 +2,8 @@ Entity Breeds
 Day Passed By Sleeping
 Change Event Damage
 Karmics Additions!
+Does block have inventory
+Item To NBT String
+Turn NBT String To Itemstack
+Try place Item in slot
+Invert Number

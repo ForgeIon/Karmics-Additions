@@ -1,6 +1,1 @@
-BlockEntity blockEntity = ${input$Block};
-if (blockEntity != null) {
-    blockEntity.getCapability(Capabilities.ItemHandler.BLOCK, null).ifPresent(handler -> {
-        int slotCount = handler.getSlots();
-    });
-}
+(world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(${input$x}, ${input$y}, ${input$z}), null) != null ? _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(${input$x}, ${input$y}, ${input$z}), null).getSlots() : 0)

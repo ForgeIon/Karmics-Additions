@@ -1,0 +1,10 @@
+if (${input$Itemstack}.getItem() instanceof net.minecraft.world.item.PotionItem) {
+    // Retrieve or create the item's NBT tag
+    CompoundTag tag = ${input$Itemstack}.getOrCreateTag();
+
+    // Set the potion effect using the registry name and effect name
+    tag.putString("Potion", new ResourceLocation(${input$Registryname}, ${input$Effectname}).toString());
+
+    // Apply the updated tag to the ItemStack
+    ${input$Itemstack}.setTag(tag);
+}

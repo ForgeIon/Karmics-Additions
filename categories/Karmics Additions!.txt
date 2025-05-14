@@ -1,6 +1,6 @@
 Karmics Additions!
 0
-1 0.6 0.8 1
+0.694118 0.486275 0.8 1
 0
 0
 Block procedures
