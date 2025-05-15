@@ -1,0 +1,7 @@
+if (true) {
+    Vec3 autoCurrentPos = ${input$Entity}.position();
+    Vec3 autoTargetPos = new Vec3(${input$x}, ${input$y}, ${input$z});
+    Vec3 autoDirection = autoTargetPos.subtract(autoCurrentPos);
+    Vec3 autoVelocity = autoDirection.normalize().scale(${input$Speed});
+    ${input$Entity}.push(autoVelocity);
+}
