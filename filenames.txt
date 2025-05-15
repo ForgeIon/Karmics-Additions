@@ -7,6 +7,12 @@ Item To NBT String
 Turn NBT String To Itemstack
 Try place Item in slot
 Invert Number
-StringLinebreak
-Get Registry From String
-Get Item ID From String
+EntityList
+GetEntityListSize
+GetEntityListIndex
+AddPlayersToList
+ResetEntityList
+Add Entity To List
+Remove Entity From List
+Check If List Has Entity
+EntitylistCategory

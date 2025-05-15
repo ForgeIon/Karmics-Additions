@@ -1,0 +1,14 @@
+{
+  "name": "EntityList",
+  "color": [
+    0.2726355493068695,
+    0.8970588445663452,
+    0.7317702174186707
+  ],
+  "versions": {
+    "1.21.1_NeoForge": {
+      "class": "java.util.ArrayList<net.minecraft.world.entity.Entity>",
+      "default_value": "new java.util.ArrayList<>()"
+    }
+  }
+}

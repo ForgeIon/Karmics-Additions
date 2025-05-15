@@ -1,6 +1,6 @@
 {
   "name": "Turn NBT String To Itemstack",
-  "translation_key": "Turn NBT String %1 into Itemstack and put onto itemstack variable %2",
+  "translation_key": "Turn NBT String %1 into Itemstack and put onto %2",
   "type": 0,
   "color": [
     0.6941176652908325,

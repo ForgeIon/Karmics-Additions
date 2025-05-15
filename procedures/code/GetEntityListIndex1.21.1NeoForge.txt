@@ -1,0 +1,1 @@
+${input$entity} = (Entity) ${input$List}.get((int) ${input$Index});

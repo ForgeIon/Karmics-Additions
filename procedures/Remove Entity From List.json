@@ -1,0 +1,29 @@
+{
+  "name": "Remove Entity From List",
+  "translation_key": "Remove entity %2 from list %1",
+  "type": 0,
+  "color": [
+    0.46666666865348816,
+    0.7843137383460999,
+    0.7019608020782471,
+    1.0
+  ],
+  "category": "EntitylistCategory",
+  "category_index": 24,
+  "world_dependency": false,
+  "versions": [
+    "1.21.1_NeoForge"
+  ],
+  "components": {
+    "List": {
+      "type": 0,
+      "variable_type": "EntityList",
+      "variable_index": 8
+    },
+    "Entity": {
+      "type": 0,
+      "variable_type": "Entity",
+      "variable_index": 2
+    }
+  }
+}
