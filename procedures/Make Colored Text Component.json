@@ -1,0 +1,31 @@
+{
+  "name": "Make Colored Text Component",
+  "translation_key": "Make Colored Chat with string %1 color%2",
+  "type": 1,
+  "color": [
+    0.3137255012989044,
+    0.572549045085907,
+    0.3960784375667572,
+    1.0
+  ],
+  "category": "Componentry",
+  "category_index": 25,
+  "world_dependency": false,
+  "type_index": 10,
+  "versions": [
+    "1.21.1_NeoForge"
+  ],
+  "components": {
+    "String": {
+      "type": 0,
+      "variable_type": "Text",
+      "variable_index": 6,
+      "default_value": "text"
+    },
+    "Color": {
+      "type": 0,
+      "variable_type": "Integer",
+      "variable_index": 9
+    }
+  }
+}

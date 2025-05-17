@@ -1,0 +1,1 @@
+((int)(${input$A}) << 24) | ((int)(${input$R}) << 16) | ((int)(${input$G}) << 8) | (int)(${input$B})

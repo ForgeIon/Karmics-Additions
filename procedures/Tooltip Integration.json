@@ -1,0 +1,24 @@
+{
+  "name": "Tooltip Integration",
+  "translation_key": "Render Tooltip component %1 (with color) (REQUIRES TOOLTIP PLUGIN TRIGGER!)",
+  "type": 0,
+  "color": [
+    0.3137255012989044,
+    0.572549045085907,
+    0.3960784375667572,
+    1.0
+  ],
+  "category": "Componentry",
+  "category_index": 25,
+  "world_dependency": false,
+  "versions": [
+    "1.21.1_NeoForge"
+  ],
+  "components": {
+    "Component": {
+      "type": 0,
+      "variable_type": "Component",
+      "variable_index": 10
+    }
+  }
+}

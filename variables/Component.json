@@ -1,0 +1,14 @@
+{
+  "name": "Component",
+  "color": [
+    0.31206750869750977,
+    0.5735294222831726,
+    0.39695772528648376
+  ],
+  "versions": {
+    "1.21.1_NeoForge": {
+      "class": "Component",
+      "default_value": "Component.empty()"
+    }
+  }
+}

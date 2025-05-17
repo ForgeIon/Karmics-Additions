@@ -1,0 +1,1 @@
+Component.literal(${input$String}).withStyle(Style.EMPTY.withColor(TextColor.fromRgb(${input$Color} & 0xFFFFFF)))

@@ -1,0 +1,2 @@
+if (${input$Entity} instanceof Player _player && !_player.level().isClientSide())
+    _player.displayClientMessage(${input$Component}, ${input$logic});

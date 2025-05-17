@@ -1,0 +1,35 @@
+{
+  "name": "SendColoredChatToPlayer",
+  "translation_key": "Send Message %1 message to %2 show in action bar: %3",
+  "type": 0,
+  "color": [
+    0.3137255012989044,
+    0.572549045085907,
+    0.3960784375667572,
+    1.0
+  ],
+  "category": "Componentry",
+  "category_index": 25,
+  "world_dependency": false,
+  "versions": [
+    "1.21.1_NeoForge"
+  ],
+  "components": {
+    "Component": {
+      "type": 0,
+      "variable_type": "Component",
+      "variable_index": 10
+    },
+    "Entity": {
+      "type": 0,
+      "variable_type": "Entity",
+      "variable_index": 2
+    },
+    "logic": {
+      "type": 0,
+      "variable_type": "Boolean",
+      "variable_index": 4,
+      "default_value": 1
+    }
+  }
+}

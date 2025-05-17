@@ -1,0 +1,44 @@
+{
+  "name": "Construct Color",
+  "translation_key": "Construct Color From R %1 G %2 B %3 A %4",
+  "type": 1,
+  "color": [
+    0.3137255012989044,
+    0.572549045085907,
+    0.3960784375667572,
+    1.0
+  ],
+  "category": "Componentry",
+  "category_index": 25,
+  "world_dependency": false,
+  "type_index": 9,
+  "versions": [
+    "1.21.1_NeoForge"
+  ],
+  "components": {
+    "R": {
+      "type": 0,
+      "variable_type": "Number",
+      "variable_index": 5,
+      "default_value": 255.0
+    },
+    "G": {
+      "type": 0,
+      "variable_type": "Number",
+      "variable_index": 5,
+      "default_value": 255.0
+    },
+    "B": {
+      "type": 0,
+      "variable_type": "Number",
+      "variable_index": 5,
+      "default_value": 255.0
+    },
+    "A": {
+      "type": 0,
+      "variable_type": "Number",
+      "variable_index": 5,
+      "default_value": 255.0
+    }
+  }
+}

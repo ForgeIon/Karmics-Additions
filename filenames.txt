@@ -17,3 +17,11 @@ Remove Entity From List
 Check If List Has Entity
 EntitylistCategory
 Push Entity To Position
+Integer
+Construct Color
+Component
+Make Colored Text Component
+SendColoredChatToPlayer
+Tooltip Integration
+Componentry
+Set Displayname To Comp

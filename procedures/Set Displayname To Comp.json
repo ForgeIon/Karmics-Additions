@@ -1,0 +1,29 @@
+{
+  "name": "Set Displayname To Comp",
+  "translation_key": "Set Displayname of item %1 to component %2",
+  "type": 0,
+  "color": [
+    0.3137255012989044,
+    0.572549045085907,
+    0.3960784375667572,
+    1.0
+  ],
+  "category": "Componentry",
+  "category_index": 25,
+  "world_dependency": false,
+  "versions": [
+    "1.21.1_NeoForge"
+  ],
+  "components": {
+    "Itemstack": {
+      "type": 0,
+      "variable_type": "Item",
+      "variable_index": 3
+    },
+    "Component": {
+      "type": 0,
+      "variable_type": "Component",
+      "variable_index": 10
+    }
+  }
+}
