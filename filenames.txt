@@ -25,3 +25,4 @@ SendColoredChatToPlayer
 Tooltip Integration
 Componentry
 Set Displayname To Comp
+SetSpecialOfComp

@@ -1,7 +1,7 @@
 {
-  "name": "SendColoredChatToPlayer",
-  "translation_key": "Send Message %1 message to %2 show in action bar: %3",
-  "type": 0,
+  "name": "SetSpecialOfComp",
+  "translation_key": "change component %1 to have %2 set to %3",
+  "type": 1,
   "color": [
     0.3137255012989044,
     0.572549045085907,
@@ -9,8 +9,9 @@
     1.0
   ],
   "category": "Componentry",
-  "category_index": 25,
+  "category_index": 23,
   "world_dependency": false,
+  "type_index": 8,
   "versions": [
     "1.21.1_NeoForge"
   ],
@@ -20,12 +21,17 @@
       "variable_type": "Component",
       "variable_index": 8
     },
-    "Entity": {
-      "type": 0,
-      "variable_type": "Entity",
-      "variable_index": 2
+    "Type": {
+      "type": 3,
+      "dropdown_options": [
+        "withItalic",
+        "withBold",
+        "withUnderlined",
+        "withStrikethrough",
+        "withObfuscated"
+      ]
     },
-    "logic": {
+    "Enable": {
       "type": 0,
       "variable_type": "Boolean",
       "variable_index": 4,

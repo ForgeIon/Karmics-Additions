@@ -7,8 +7,8 @@
   ],
   "versions": {
     "1.21.1_NeoForge": {
-      "class": "Component",
-      "default_value": "Component.empty()"
+      "class": "MutableComponent",
+      "default_value": "Component.literal(\"\")"
     }
   }
 }
