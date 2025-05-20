@@ -31,3 +31,5 @@ NormalizeVector
 AdvancedMathematics
 IsNumberDivisor
 IsNumberMultiple
+MakeVector
+vectormathematics

@@ -1,0 +1,38 @@
+{
+  "name": "vectormathematics",
+  "translation_key": "(Vector Math) %1 %3 by %2",
+  "type": 1,
+  "color": [
+    0.48627451062202454,
+    0.6627451181411743,
+    0.800000011920929,
+    1.0
+  ],
+  "category": "Block data",
+  "category_index": 0,
+  "world_dependency": false,
+  "type_index": 11,
+  "versions": [
+    "1.21.1_NeoForge"
+  ],
+  "components": {
+    "origin": {
+      "type": 0,
+      "variable_type": "Vector",
+      "variable_index": 11
+    },
+    "changer": {
+      "type": 0,
+      "variable_type": "Vector",
+      "variable_index": 11
+    },
+    "method": {
+      "type": 3,
+      "dropdown_options": [
+        "subtract",
+        "add",
+        "multiply"
+      ]
+    }
+  }
+}
