@@ -1,0 +1,32 @@
+{
+  "name": "IsNumberDivisor",
+  "translation_key": "Is %1 a divisor of %2",
+  "type": 1,
+  "color": [
+    0.4862745404243469,
+    0.6615917086601257,
+    0.800000011920929,
+    1.0
+  ],
+  "category": "AdvancedMathematics",
+  "category_index": 23,
+  "world_dependency": false,
+  "type_index": 4,
+  "versions": [
+    "1.21.1_NeoForge"
+  ],
+  "components": {
+    "Divisor": {
+      "type": 0,
+      "variable_type": "Number",
+      "variable_index": 5,
+      "default_value": 0.0
+    },
+    "Number": {
+      "type": 0,
+      "variable_type": "Number",
+      "variable_index": 5,
+      "default_value": 0.0
+    }
+  }
+}

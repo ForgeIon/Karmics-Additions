@@ -1,0 +1,14 @@
+{
+  "name": "Vector",
+  "color": [
+    0.35686275362968445,
+    0.6470588445663452,
+    0.6235294342041016
+  ],
+  "versions": {
+    "1.21.1_NeoForge": {
+      "class": "Vec3",
+      "default_value": "Vec3.ZERO"
+    }
+  }
+}

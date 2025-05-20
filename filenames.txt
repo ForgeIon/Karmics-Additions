@@ -26,3 +26,8 @@ Tooltip Integration
 Componentry
 Set Displayname To Comp
 SetSpecialOfComp
+Vector
+NormalizeVector
+AdvancedMathematics
+IsNumberDivisor
+IsNumberMultiple

@@ -1,0 +1,1 @@
+(${input$Number} % ${input$Multiple} == 0)

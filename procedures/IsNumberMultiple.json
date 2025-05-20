@@ -1,0 +1,32 @@
+{
+  "name": "IsNumberMultiple",
+  "translation_key": "Is %2 a multiple of %1",
+  "type": 1,
+  "color": [
+    0.48627451062202454,
+    0.6627451181411743,
+    0.800000011920929,
+    1.0
+  ],
+  "category": "AdvancedMathematics",
+  "category_index": 23,
+  "world_dependency": false,
+  "type_index": 4,
+  "versions": [
+    "1.21.1_NeoForge"
+  ],
+  "components": {
+    "Multiple": {
+      "type": 0,
+      "variable_type": "Number",
+      "variable_index": 5,
+      "default_value": 0.0
+    },
+    "Number": {
+      "type": 0,
+      "variable_type": "Number",
+      "variable_index": 5,
+      "default_value": 0.0
+    }
+  }
+}
